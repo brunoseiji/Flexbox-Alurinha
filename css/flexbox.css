@@ -1,0 +1,39 @@
+.cabecalhoPrincipal .container {
+	display: flex; /*Deixa os elementos um do lado do outro.*/
+	align-items: center; /*Alinha os elementos verticalmente no centro.*/
+	justify-content: space-between; /*Aloca o espaço entre os elementos*/
+}
+
+.cabecalhoPrincipal-nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 70%;
+	margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+	width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+	display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+	display: flex;
+	/*flex-direction: column;*/ /*Ao invez de deixar o padrão "row" que seria um do lado do outro, o "column" deixa um em baixo do outro*/
+	/*flex-wrap: wrap;*/ /*o wrap joga para proxima columa quando não couber mais na classe pai*/
+	flex-flow: column wrap; /*Atalho jutando os dois*/
+	height: 250px;
+}
